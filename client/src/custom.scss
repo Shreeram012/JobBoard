@@ -1,0 +1,18 @@
+
+$theme-colors: (
+  "dom": #0766AD,
+  "sub": #29ADB2,
+  "foot":#C5E898,
+  "minor":#F3F3F3
+);
+
+.findjob-btn {
+  color: #fff;
+  background-color: sub;
+  border-color: sub;
+}
+
+
+
+/* import bootstrap to set changes */
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
