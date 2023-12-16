@@ -100,9 +100,10 @@ exports.postAccept=async (req,res)=>{
     const cid=app.candidate
     const can=await Candidate.findOne({_id:cid})
     var data = {
-        service_id: 'service_0ru81hf',
-        template_id: 'template_lfc76w8',
-        user_id: 'Un7kUt00F2MhYRo8d',
+        //EmailJS configuration
+        service_id: '',
+        template_id: '',
+        user_id: '',
         template_params: {
             'to_email':can.email,
             'employer': employer,
